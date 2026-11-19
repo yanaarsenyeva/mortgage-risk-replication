@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Freddie Mac raw and processed data
+data/raw/
+data/processed/
+
+# Models and large outputs
+models/
+*.parquet
+*.joblib
+*.pt
+*.pkl
+*.zip
+
+# Reports: коммитим таблицы и графики, но не большие файлы
+reports/figures/*.png
+reports/figures/*.pdf
+
+# macOS
+.DS_Store
+
+# Jupyter
+*.ipynb_checkpoints

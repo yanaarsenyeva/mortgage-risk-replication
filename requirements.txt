@@ -1,0 +1,11 @@
+pandas
+numpy
+pyarrow
+scikit-learn
+lightgbm
+matplotlib
+seaborn
+pyyaml
+tqdm
+jupyter
+ipykernel
