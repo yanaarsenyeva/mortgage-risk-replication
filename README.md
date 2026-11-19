@@ -90,7 +90,7 @@ mortgage-risk-replication/
 
 ### Source Code
 
-The main source files are:
+The source files included in the repository are:
 
 ```text
 src/
@@ -106,10 +106,7 @@ src/
 ├── 16_state_conditional_auc.py
 ├── config.py
 ├── data.py
-├── evaluate.py
-├── features.py
-├── states.py
-└── train.py
+└── states.py
 ```
 
 ### Processed Data
@@ -250,6 +247,7 @@ python -m src.16_state_conditional_auc
 - `reports/tables/baselinewithlagsconfusionmatrix.csv` — lag-only logistic-regression confusion matrix.
 - `reports/tables/baselinewithlagsandmacroconfusionmatrix.csv` — lag-plus-macro logistic-regression confusion matrix.
 - `reports/tables/neuralnetworklagsonlyconfusionmatrix.csv` — lag-only neural-network confusion matrix.
+- `reports/tables/split_summary.csv` — temporal split summary.
 
 ## Conclusion
 
